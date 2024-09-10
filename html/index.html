@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="/css/index.css">
+ <title>First webseite projeckt</title>
+</head>
+<body>
+ <header>
+
+   <div class="logo">
+    <h1>
+     <a href="/html/index.html">Logo</a>
+    </h1>
+   </div>
+
+   <div class="navbar-links" id="navbar-links">
+   <nav>
+    <ul>
+     <li><a href="/html/index.html">Home</a></li>
+     <li><a href="/html/Services.html">Services</a></li>
+     <li><a href="/html/About.html">About</a></li>
+     <li><a href="/html/Contact.html">Contact</a></li>
+
+     <li class="username-login-logout">
+       <a  href="/html/User.html" class="username" id="Username"></a>
+     
+       <a  href="/html/Login.html" class="Login" id="Login">Login</a>
+    
+       <a href="/html/Logout.html" class="Logout" id="Logout">Logout</a>
+     </li>
+
+    </ul>
+   </nav>
+
+  </div>
+
+ </header>
+
+ <div class="hamburger-toggle">
+    <input type="checkbox" id="toggle">
+
+    <label for="toggle" class="hamburger">
+        <span class="line line1" id="line1"></span>
+        <span class="line line2" id="line2"></span>
+        <span class="line line3" id="line3"></span>
+    </label>
+</div>
+
+<div class="mobile-menu" id="mobile-menu">
+  <ul>
+   <li><a href="/">Home</a></li>
+
+   <li><a href="/html/index.html">Home</a></li>
+   <li><a href="/html/Services.html">Services</a></li>
+   <li><a href="/html/About.html">About</a></li>
+   <li><a href="/html/Contact.html">Contact</a></li>
+
+   <li class="username-login-logout">
+     <a  href="/html/User.html" class="username" id="Username"></a>
+      
+       <a  href="/html/Login.html" class="Login" id="menu-Login">Login</a>
+    
+       <a href="/html/Logout.html" class="Logout" id="menu-Logout">Logout</a>
+     </li>
+   </li>
+  </ul>
+ 
+</div>
+
+ <main>
+  <div class="hero-text-image">
+    <div class="hero-text">
+      <h1>Welcome to our website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui vel enim faucibus semper. Donec vel ipsum eget nunc dictum condimentum.</p>
+
+      <a href="/About.html" class="button">Learn More</a>
+    </div>
+ 
+    <div class="hero-image">
+      <img src="/images/hero-image.jpg" alt="Hero Image">
+    </div>
+  </div>
+ </main>
+
+ <section>
+  <div class="services-text">
+   <h2>Our Services</h2>
+   <p>Lorem ipsum dolor sit amet, <br>
+     consectetur adipiscing elit. Sed in dui vel enim faucibus semper. <br>
+      Donec vel ipsum eget nunc dictum condimentum.</p>
+   </div>
+
+   <div class="service-boxes">
+
+    <div class="service-image">
+     <img src="/images/Responsive Webdesign.webp" alt="Service-image">
+     <div class="services-image-text">
+       <h3>
+
+        Responsive Webdesign,
+        <br>
+        Front-end web development
+
+       </h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     </div>
+    </div>
+  </div>
+
+ </section>
+
+<div class="skills">
+ 
+  <div class="skills-text">
+   <h2>Skills</h2>
+   <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit. <br>
+     Sed in dui vel enim faucibus semper. <br>
+     Donec vel ipsum eget nunc dictum condimentum.</p>
+  </div>
+
+   <div class="skill-boxes">
+
+    <div class="skill-image">
+     <img id="skill-img" src="/images/HTML.jpg" alt="Skill-image">
+     <div class="skills-image-text">
+       <h3 id="skill-name">HTML</h3>
+       <p id="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     </div>
+    </div>
+    
+    
+    <div class="slider-arrows">
+      <button
+      id="prev-btn">
+      <i class="fas fa-angle-left"></i>
+    </button>
+    
+    <button
+      id="next-btn">
+      <i class="fas fa-angle-right"></i>
+    </button>
+    </div>
+    
+   </div>
+ 
+</div>
+   
+ <footer>
+  <div class="contact-social">
+
+    <div class="contact">
+      <h3>Contact</h3>
+      <p> Adresse: Lorem ipsum dolor,<br> consectetur adipiscing <br> elit amet.</p>
+      <a href="mailto:info@example.com">Email: info@example.com</a>
+      <br>
+      <a href="tel:00491234567890">Tel: 0049 1234567890</a>
+    </div>
+    
+    <div class="social">
+      <h3>Social Media</h3>
+      <ul>
+       <li><a href="/"><i class="fab fa-facebook-square"></i>
+        Facebook
+      </a></li>
+       <li><a href="/"><i class="fab fa-twitter"></i>
+        Twitter
+      </a></li>
+       <li><a href="/"><i class="fab fa-instagram"></i>
+        Instagram
+      </a></li>
+       <li><a href="/"><i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a></li>
+      </ul>
+      </div>
+      
+  </div>
+  <div class="copyright">
+    <p>&copy; <span class="year" id="year">2024</span> All rights reserved.</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+    </div>
+
+  </div>
+ </footer>
+ <script src="/js/index.js"></script>
+</body>
+</html>

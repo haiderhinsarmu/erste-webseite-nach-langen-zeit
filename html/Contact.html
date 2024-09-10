@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/css/Contact.css">
+ <link rel="stylesheet" href="/css/index.css">
+ <title>Contact page</title>
+</head>
+<body>
+ <header>
+
+  <div class="logo">
+   <h1>
+    <a href="#">Logo</a>
+   </h1>
+  </div>
+
+  <div class="navbar-links" id="navbar-links">
+  <nav>
+   <ul>
+    <li><a href="/html/index.html">Home</a></li>
+    <li><a href="/html/Services.html">Services</a></li>
+    <li><a href="/html/About.html">About</a></li>
+    <li><a href="/html/Contact.html">Contact</a></li>
+
+    <li class="username-login-logout">
+      <a  href="/html/User.html" class="username" id="Username"></a>
+    
+      <a  href="/html/Login.html" class="Login" id="Login">Login</a>
+   
+      <a href="/html/Logout.html" class="Logout" id="Logout">Logout</a>
+    </li>
+
+   </ul>
+  </nav>
+
+ </div>
+
+</header>
+ <main>
+  <div class="contact-container">
+
+   <h2>Contact Us</h2>
+
+   <p class="error-message" id="error-message"></p>
+   <p class="success-message" id="success-message"></p>
+   
+   <form action="/Contact" method="post" id="Contact-Form-Data">
+    <div class="form-controll">
+     <label for="name">Name:</label>
+     <br>
+     <input type="text" id="name" name="name" required>
+    </div>
+
+    <br> 
+
+    <div class="form-controll">
+     <label for="email">Email:</label>
+     <br>
+     <input type="email" id="email" name="email" required>
+    </div>
+
+    <br>
+
+    <div class="form-controll">
+     <label for="message">Message:</label>
+     <br>
+     <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <br>
+
+    <div class="form-controll">
+     <button
+      type="submit"
+      class="submit-button"
+     >
+      Send Message
+     </button>
+    </div>
+
+    <br>
+
+   </form>
+
+   <p>
+    <a href="/html/index.html">Back to Home</a>
+   </p>
+   
+  </div>
+  
+ </main>
+ <script src="/js/contact.js"></script> 
+</body>
+</html>

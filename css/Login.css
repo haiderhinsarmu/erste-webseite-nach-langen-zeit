@@ -1,0 +1,164 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: 0;
+ box-sizing: border-box;
+}
+
+html,
+ body {
+ height: 100%;
+ width: 100%;
+ font-family: Arial, sans-serif;
+}
+
+main {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.login-container{
+ width: 400px;
+ background-color: #fff;
+ border-radius: 4px;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2{
+ text-align: center;
+ margin: 1rem;
+ font-weight: 700;
+ font-size: 2rem;
+}
+
+.login-container p{
+ text-align: center;
+ justify-content: center;
+ margin-bottom: 0.8rem;
+}
+
+.active.error-message{
+ color: red;
+ font-size: 1rem;
+
+}
+
+.active.success-message{
+ color: green;
+ font-size: 1rem;
+}
+
+form{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+form .form-controll{
+ width: 90%;
+ margin: 0rem 0;
+ display: block;
+ position: relative;
+ font-size: 1.2rem;
+}
+
+form .form-controll label{
+ display: block;
+ font-weight: 600;
+}
+
+form .form-controll input{
+ width: 100%;
+ padding: 0.5rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ outline: none;
+ font-size: 1.1rem;
+}
+
+form .remeber-forgot{
+ width: 90%;
+ display: flex;
+ align-items: center;
+ margin: 0.5rem 0;
+ justify-content: space-between;
+}
+
+form .remeber-forgot .rememberMe{
+ font-size: 1.1rem;
+ cursor: pointer;
+}
+
+.rememberMe input{
+ font-size: 1.2rem;
+}
+
+form .remeber-forgot.forgot-password{
+ font-size: 1.1rem;
+ cursor: pointer;
+}
+
+.forgot-password a{
+ color: #333;
+ text-decoration: none;
+}
+
+.forgot-password:hover{
+ text-decoration: underline;
+}
+
+form .form-controll button{
+ width: 100%;
+ padding: 0.5rem 1rem;
+ background-color: #4CAF50;
+ color: #fff;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+form .form-controll button:hover{
+ background-color: #45a049;
+}
+
+form p{
+ margin: 1rem 0;
+ font-size: 1.1rem;
+ color: #777;
+}
+
+form p a{
+ color: #333;
+ text-decoration: none;
+}
+
+form p a:hover{
+ text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px){
+ .login-container{
+  width: 300px;
+  margin: 0 auto;
+ }
+
+ form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+ form.form-controll{
+  width: 80%;
+ }
+}
+
+

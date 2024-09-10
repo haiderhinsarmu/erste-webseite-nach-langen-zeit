@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/css/Login.css">
+ <title>Login Page</title>
+</head>
+<body>
+ <main>
+  <div class="login-container">
+
+   <h2>Login</h2>
+
+   <p class="error-message" id="error-message"></p>
+   <p class="success-message" id="success-message"></p>
+
+   <form action="/Login" method="post" id="Login-Form-Data">
+
+    <div class="form-controll">
+     <label for="username">Username:</label>
+     <br>
+     <input type="text" id="username" name="username" required>
+    </div>
+
+    <br>
+
+    <div class="form-controll">
+     <label for="password">Password:</label>
+     <br>
+     <input type="password" id="password" name="password" required >
+  </div> 
+
+    <br>
+
+    <div class="remeber-forgot">
+
+     <div class="rememberMe">
+      <input type="checkbox" id="rememberMe" name="rememberMe">
+      <label for="rememberMe">Remember Me</label>
+     </div>
+
+     <div class="forgot-password">
+      <a href="/Forgot-password.html" class="forgot-password">Forgot Password?</a>
+     </div>
+
+    </div>
+
+    <br>
+
+    <div class="form-controll">
+      <button type="submit" id="submit">Login</button>
+     </div>
+    <br>
+    
+    <p>Don't have an account? <a href="/html/Register.html">Register</a></p>
+    <br>
+    <p>Back to <a href="/html/index.html">Home</a></p>
+
+    <br>
+
+   </form>
+
+  </div>
+
+ </main>
+ <script src="/js/Login.js"></script>
+</body>
+</html>

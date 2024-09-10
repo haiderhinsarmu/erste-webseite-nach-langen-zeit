@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/css/Register.css">
+ <title>Register Page</title>
+</head>
+<body>
+ <main>
+  <div class="register-container">
+   <h2>Register</h2>
+
+   <p class="error-message" id="error-message"></p>
+   <p class="success-message" id="success-message"></p>
+
+   <form action="/Register" method="post" id="Register-Form-Data">
+    <div class="form-control">
+     <label for="first-name">First Name:</label>
+     <br>
+     <input type="text" id="first-name" name="first-name" aria-label="First Name" required>
+    </div>
+
+    <br>
+
+    <div class="form-control">
+     <label for="last-name">Last Name:</label>
+     <br>
+     <input type="text" id="last-name" name="last-name" aria-label="Last Name" required>
+    </div>
+    <br>
+
+    <div class="form-control">
+     <label for="email">Email:</label>
+     <br>
+     <input type="email" id="email" name="email" aria-label="Email" required>
+    </div>
+
+    <br>
+
+    <div class="form-control">
+     <label for="phone-number">Phone Number:</label>
+     <br>
+     <input type="tel" id="phone-number" name="phone-number" aria-label="Phone Number" required>
+    </div>
+
+    <br>
+
+    <div class="form-control">
+     <label for="password">Password:</label>
+     <br>
+     <input type="password" id="password" name="password" aria-label="Password" required>
+    </div>
+
+     <br>
+
+    <div class="form-control">
+     <label for="confirm-password">Confirm Password:</label>
+     <br>
+     <input type="password" id="confirm-password" name="confirm-password" aria-label="Confirm Password" required>
+    </div>
+
+    <br>
+
+    <div class="form-control">
+     <button type="submit">
+      Register
+     </button>
+    </div>
+
+    <br>
+
+    <p>Already have an account? <a href="/html/Login.html">Login</a></p>
+
+    <p>
+     <a href="/html/index.html">Back to Home</a>
+    </p>
+
+   </div>
+
+ </form>
+ </main>
+ <script src="/js/Register.js"></script>
+</body>
+</html>
